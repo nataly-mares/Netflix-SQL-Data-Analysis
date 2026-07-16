@@ -1,3 +1,61 @@
+# Netflix Series Data Analysis with SQL 🎬
+
+## ✅ Project Description
+This project focuses on analyzing a relational database of Netflix series using MySQL. Through SQL queries, the project explores information related to series, episodes, actors, and IMDb ratings, applying data analysis techniques to answer business-related questions.
+
+Additionally, SQL Views were created to simplify and optimize access to frequently used queries.
+
+## ✅ Objective
+Develop a SQL data analysis project that demonstrates the ability to:
+
+- Analyze information about TV series and episodes.
+- Relate multiple tables using `INNER JOIN`.
+- Generate insights using aggregate functions.
+- Create SQL Views to simplify future queries.
+- Apply best practices for organizing SQL scripts.
+
+## ✅ Queries Performed
+The project includes SQL queries to analyze information such as:
+
+- Total number of series.
+- Number of series by genre.
+- Series ordered by release year.
+- Number of episodes per series.
+- Series with more than five episodes.
+- Average IMDb rating by series.
+- Highest-rated episode.
+- Top 5 highest-rated episodes.
+- Actors and their characters by series.
+- Number of actors per series.
+
+## ✅ Views Created
+The following SQL Views were created to simplify data analysis:
+- vista_series_episodios
+- vista_promedio_series
+- vista_elenco_series
+
+## ✅ Tools Used
+- MySQL
+- MySQL Workbench
+- SQL
+- Git
+- GitHub
+
+## ✅ Results
+A complete SQL data analysis project was developed to explore information related to series, episodes, and actors. By using analytical queries, aggregate functions, table relationships, and SQL Views, the project provides meaningful insights while demonstrating fundamental SQL skills for working with relational databases.
+
+## ✅ How to Use the Project
+1. Clone or download this repository.
+2. Run `Netflix_schema.sql` to create the database.
+3. Run `Netflix_data.sql` to populate the database.
+4. Execute `queries.sql` to perform the analysis.
+5. Execute `views.sql` to create the SQL Views.
+6. Explore the results using MySQL Workbench.
+
+
+
+
+
 # Análisis de Series de Netflix con SQL 🎬
 
 ## ✅ Descripción del proyecto
@@ -48,20 +106,3 @@ Se desarrolló un proyecto de análisis de datos utilizando SQL para explorar in
 - Ejecutar queries.sql para realizar el análisis.
 - Ejecutar views.sql para crear las vistas.
 - Explorar los resultados utilizando MySQL Workbench.
-
-📸 Capturas del proyecto
-- Estructura de la base de datos
-
-(Inserta aquí la imagen del diagrama EER o de las tablas.)
-
-- Relación entre tablas mediante JOIN
-
-(Inserta aquí la captura de la Consulta 14.)
-
-- Análisis del promedio de calificación por serie
-
-(Inserta aquí la captura de la Consulta 11.)
-
-- Vista: Promedio de calificación por serie
-
-(Inserta aquí la captura de SELECT * FROM vista_promedio_series;.)
